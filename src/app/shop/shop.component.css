@@ -1,0 +1,266 @@
+.font, div.header div.header__top div.header__menu div.menu__content,
+div.header div.header__top div.header__personal div.menu__content, div.header div.header__top div.header__logo, div.warper div.warper__top p:nth-child(2), div.warper div.warper__top p:nth-child(3), div.warper div.warper__arrivals div.arrivals__title,
+div.warper div.warper__arrivals div.products__title,
+div.warper div.warper__products div.arrivals__title,
+div.warper div.warper__products div.products__title, div.warper div.warper__arrivals p.name,
+div.warper div.warper__products p.name, div.warper div.warper__arrivals p.type,
+div.warper div.warper__products p.type, div.warper div.warper__arrivals p.price,
+div.warper div.warper__products p.price, div.warper div.warper__tips div.tips__title, div.warper div.warper__tips div.tips__text, div.warper div.warper__instagram div.instagram__title, div.warper div.warper__subscribe div.subscribe__title, div.footer div.footer__top_background div.footer__top span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.rating > span:hover:before {
+  content: "\2605";
+  position: absolute; }
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl; }
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute; }
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl; }
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em; }
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute; }
+
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+div.header {
+  width: 1920px; }
+  div.header div.header__top {
+    width: 1175px;
+    margin: 0px auto;
+    height: 100px;
+    line-height: 100px; }
+    div.header div.header__top div.header__menu div i,
+    div.header div.header__top div.header__personal div i {
+      margin-left: 15px;
+      padding-left: 15px;
+      border-left: 3px solid #eeeeee; }
+    div.header div.header__top div.header__menu div.menu__icon i,
+    div.header div.header__top div.header__personal div.menu__icon i {
+      padding-right: 10px;
+      border-left: none; }
+    div.header div.header__top div.header__menu div.personal__user i,
+    div.header div.header__top div.header__personal div.personal__user i {
+      border-left: none; }
+    div.header div.header__top div.header__logo {
+      font-size: 46px;
+      font-weight: normal; }
+      div.header div.header__top div.header__logo span {
+        font-weight: bold;
+        color: #e9beac; }
+  div.header div.header__banner {
+    margin: 0 auto;
+    width: 1920px;
+    height: 650px;
+    background-color: #f5f4f4; }
+    div.header div.header__banner div.trapezoid--left {
+      background-color: #d6aa97;
+      width: 846px;
+      height: 650px;
+      clip-path: polygon(0 0, 64% 0, 100% 100%, 0% 100%);
+      float: left;
+      clear: right; }
+    div.header div.header__banner div.trapezoid--right {
+      background-color: #d6aa97;
+      width: 846px;
+      height: 650px;
+      clip-path: polygon(36% 0, 100% 0, 100% 100%, 0% 100%);
+      float: right; }
+
+div.warper {
+  width: 1920px; }
+  div.warper div.warper__top {
+    width: 1175px;
+    margin: 50px auto; }
+    div.warper div.warper__top p:nth-child(2) {
+      font-size: 18px; }
+    div.warper div.warper__top p:nth-child(3) {
+      font-size: 14px;
+      color: #fae9e2; }
+  div.warper div.warper__arrivals,
+  div.warper div.warper__products {
+    width: 1175px;
+    margin: 50px auto; }
+    div.warper div.warper__arrivals div.arrivals__title,
+    div.warper div.warper__arrivals div.products__title,
+    div.warper div.warper__products div.arrivals__title,
+    div.warper div.warper__products div.products__title {
+      text-align: center;
+      font-size: 28px; }
+    div.warper div.warper__arrivals p.name,
+    div.warper div.warper__products p.name {
+      color: #f6d6c9;
+      font-size: 10px;
+      font-weight: normal; }
+    div.warper div.warper__arrivals p.type,
+    div.warper div.warper__products p.type {
+      font-size: 13px;
+      font-weight: normal; }
+    div.warper div.warper__arrivals p.price,
+    div.warper div.warper__products p.price {
+      font-size: 16px; }
+  div.warper div.warper__banner {
+    margin: 50px auto;
+    width: 1920px;
+    height: 340px;
+    background-color: #d6aa97;
+    position: relative; }
+    div.warper div.warper__banner div.banner__box {
+      width: 1175px;
+      margin: 0px auto;
+      top: 25%;
+      left: 20%;
+      position: absolute; }
+      div.warper div.warper__banner div.banner__box div.banner__avatar {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #eaeaea;
+        text-align: center;
+        font-weight: bold;
+        line-height: 100px; }
+      div.warper div.warper__banner div.banner__box div.banner__text {
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        color: #eaeaea; }
+      div.warper div.warper__banner div.banner__box div.banner__author {
+        margin-top: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-style: italic;
+        color: #ffffff; }
+        div.warper div.warper__banner div.banner__box div.banner__author span {
+          font-style: normal;
+          font-size: 16px;
+          color: #f0b8a0; }
+  div.warper div.warper__support {
+    width: 1175px;
+    margin: 50px auto; }
+    div.warper div.warper__support div.support__icon {
+      width: 85px;
+      height: 85px;
+      border-radius: 50%;
+      border: 3px solid black;
+      text-align: center;
+      line-height: 100px;
+      margin-bottom: 37px; }
+      div.warper div.warper__support div.support__icon i {
+        font-size: 30px; }
+    div.warper div.warper__support p {
+      font-family: 'Montserrat', sans-serif; }
+    div.warper div.warper__support p:nth-child(2) {
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 37px;
+      font-weight: bold; }
+    div.warper div.warper__support .icon--center {
+      margin: 0 auto; }
+    div.warper div.warper__support div.support__icon:hover {
+      border-color: #d6aa97;
+      color: #d6aa97; }
+  div.warper div.warper__tips {
+    width: 1175px;
+    margin: 100px auto; }
+    div.warper div.warper__tips div.tips__title {
+      text-align: center;
+      font-size: 28px; }
+    div.warper div.warper__tips div.tips__image {
+      margin-right: 20px;
+      float: left;
+      position: relative; }
+    div.warper div.warper__tips div.tips__text {
+      margin-bottom: 20px; }
+      div.warper div.warper__tips div.tips__text p:nth-child(2) {
+        text-transform: none;
+        font-weight: normal;
+        margin: 20px 0px 20px 0px; }
+      div.warper div.warper__tips div.tips__text a {
+        color: #f0b8a0;
+        font-size: 16px; }
+    div.warper div.warper__tips div.tips__date {
+      font-family: 'Montserrat', sans-serif;
+      width: 84px;
+      height: 106px;
+      background-color: #f0b8a0;
+      color: #ffffff;
+      right: 0px;
+      top: 0px;
+      text-align: center;
+      line-height: 50px;
+      font-size: 28px;
+      position: absolute; }
+      div.warper div.warper__tips div.tips__date span {
+        font-size: 40px;
+        font-weight: bold; }
+  div.warper div.warper__instagram {
+    width: 1920px; }
+    div.warper div.warper__instagram div.instagram__title {
+      text-align: center;
+      font-size: 28px; }
+  div.warper div.warper__subscribe {
+    width: 569px;
+    margin: 100px auto; }
+    div.warper div.warper__subscribe div.subscribe__title {
+      text-align: center;
+      font-size: 40px; }
+    div.warper div.warper__subscribe div.subscribe__text {
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      margin: 33px 0px; }
+    div.warper div.warper__subscribe div.subscriber__email input.text-search {
+      width: 460px;
+      height: 52px;
+      padding: 0 20px;
+      border: 1px solid black;
+      border-radius: 10px 0 0 10px; }
+    div.warper div.warper__subscribe div.subscriber__email button.btn-search {
+      width: 109px;
+      height: 52px;
+      border-radius: 0 10px 10px 0;
+      background-color: #666666;
+      color: #ffffff; }
+
+div.footer {
+  width: 1920px; }
+  div.footer div.footer__top_background {
+    background-color: #f5f5f5; }
+    div.footer div.footer__top_background div.footer__top {
+      width: 1175px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      margin: 0 auto; }
+      div.footer div.footer__top_background div.footer__top div {
+        float: left; }
+      div.footer div.footer__top_background div.footer__top span {
+        border-right: 3px solid #ececec;
+        padding-right: 20px;
+        padding-left: 20px; }
+  div.footer div.footer__icon {
+    width: 400px;
+    margin: 50px auto; }
+    div.footer div.footer__icon i {
+      margin: 10px 40px;
+      font-size: 20px; }
+
+/*# sourceMappingURL=shop.component.css.map */
